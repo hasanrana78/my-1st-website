@@ -1,20 +1,25 @@
 
 body {font-family:Verdana, Geneva, Tahoma, sans-serif;
-margin:0;}
-h1{font-size:50px;}
+margin:0;
+background-color: greenyellow;}
+h1{font-size:50px;
+  text-align: center;}
 h3,h2 {text-align: center;}
-.half-width {
+.half-width { 
+    text-align:center;
+    text-align:justify;
     width:40%;
     margin:3px;
 float:left;
-padding:4px 2px;
+padding:4px 6px;
 margin:0px;}
 .half-width img {width:100%;}
 section {height:500px;}
 
-.top-banner {
+.top-banner {background-color:greenyellow;
     padding-left:70px;
     background-image:url("images/top-banner.png");
+    
     background-repeat:no-repeat;
     
 }
@@ -28,8 +33,6 @@ a:hover {color:whitesmoke;
       text-decoration: none;}
 
       
-    .half-width img {width:80%;
-    }
 
     section {height:500px;
         padding-bottom:30px;
@@ -41,33 +44,34 @@ a:hover {color:whitesmoke;
             padding-right: 80px;}
 
             .new-width {
-                width:28%;
-                margin:3px;
+                width:26%;
             float:left;
-            padding:4px 10px;
-            padding-left: 35px;
-            margin:2px;
+            padding:4px 19px;
+            height: 70%;
+            margin:15px;
             text-align: center;
         box-shadow: 10px 10px 40px grey;
-           
-        border-radius: 5px;}
+           border-radius: 5px;}
 
-            .new-width img {width:80%; height:70%;
+            .new-width img {width:80%; height:35%;
                 text-align: center;
             }
 
             .b-g {background-color:gainsboro;
-                height:400px;
+                height:450px;
             margin:25px;
-        border-radius: 15px;}
+        border-radius: 15px;
+        padding-left: 20px;}
 
         .other-width {width:50%; 
             height: 90px;
             text-align: center;
         background-image:linear-gradient(45deg,yellow,blue) ;
            margin-left: 280px;
-        
+        border-radius: 150px;
     padding-bottom: 20px;}
 
-    footer{padding:140px;
+    footer{ background-color: black;
+        color:white;
+        padding:40px;
        text-align: center;}
