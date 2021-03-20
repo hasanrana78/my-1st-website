@@ -57,7 +57,7 @@ a:hover {color:whitesmoke;
                 text-align: center;
             }
 
-            .b-g {background-color:gainsboro;
+            .b-g {background-color:rgb(220, 220, 220);
                 height:450px;
             margin:25px;
         border-radius: 15px;
